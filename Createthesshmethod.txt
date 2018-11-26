@@ -1,0 +1,17 @@
+当你在windows10下载安装了git后
+1.右击鼠标选择Git Bash Here弹出命令框
+2.输入cd ~/.ssh
+当命令框提示No such file or directory；
+则你的电脑中没有.ssh文件
+此时，为了给你的电脑授权，我们需要自己创建并生产一个包含了id_rsa
+id_rsa.pub的.ssh文件夹。（及手动生成密钥）
+3.输入$ ssh-keygen -t rsa -C "邮箱地址" ##回车
+一路回车
+
+4.检查是否生成密钥
+输入cd ~/.ssh
+进入.ssh文件
+5.输入ls  
+显示id_rsa  id_rsa.pub  确定生成密钥
+
+路径默认在C:\Users\  中 
