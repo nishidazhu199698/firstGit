@@ -1,0 +1,13 @@
+git checkout -b xxx  创建一个分支
+
+git add xx.txt
+
+git commit -m "xxxx"
+
+git push  把文件提交到分支
+
+git push --set-upstream origin xxx  这里是把更新后的分支提交到github  
+
+
+注：如果你提交的文档没有更新，或是在提交分支之后创建也默认为未更新文件，不可提交上分支；
+ 解决办法：需更改文档再次提交即可成功。
